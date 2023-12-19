@@ -13,7 +13,6 @@ const Header = ({ updateCurrentMovie }: HeaderProps) => {
     const searchResponse = await MoviesAPI.fetchByTitle(title);
     if (searchResponse.length > 0) {
       updateCurrentMovie(searchResponse[0]);
-      console.log(searchResponse[0]);
     }
   }
   return (

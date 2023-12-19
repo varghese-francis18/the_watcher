@@ -55,9 +55,6 @@ function App() {
   async function fetchPopular() {
     const popularMoviesList = await MoviesAPI.fetchPopularMovie();
     if (popularMoviesList) {
-      console.log(
-        `${BASE_URL}movie/popular?api_key=${import.meta.env.VITE_REACT_API_KEY}`
-      );
       setCurrentMovie(popularMoviesList[Math.trunc(Math.random() * 19)]);
     }
   }
