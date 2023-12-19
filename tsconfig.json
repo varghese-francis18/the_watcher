@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "movies.ts"],
+  "include": ["src", "src/API/movies.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
