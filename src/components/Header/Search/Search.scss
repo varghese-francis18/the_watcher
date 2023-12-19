@@ -1,0 +1,32 @@
+.search{
+    display: flex;
+    justify-content: end;
+    margin-left: 17vw;
+}
+
+.search-box{
+    width: 40vw;
+    border: black solid 1px;
+    height: 40px;
+    background-color: rgba(240, 224, 224, 0.6) ;
+    border-radius: 20px;
+    border: none;
+    padding:3px 10px 0px 10px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 0px 2px black;
+
+    &::placeholder{
+        color: white;
+        font-size: 18px;
+        text-shadow: 0px 0px 2px black;
+    }
+
+  
+}
+
+.search-icon{
+    position: absolute;
+    margin: 7px 15px ;
+    
+}
