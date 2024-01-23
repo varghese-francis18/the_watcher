@@ -30,7 +30,11 @@ const Search = ({ onsubmit }: SearchProps) => {
         onKeyUp={submit}
       />
       <div className="search-icon">
-        <SearchIcon size={27} className="icon" />
+        <SearchIcon
+          size={27}
+          className="icon"
+          onClick={() => onsubmit(value)}
+        />
       </div>
     </div>
   );

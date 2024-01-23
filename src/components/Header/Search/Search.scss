@@ -2,6 +2,19 @@
     display: flex;
     justify-content: end;
     margin-left: 17vw;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px)
+{
+   .search-box{
+    margin-top: 10px;
+    justify-content: center;
+    width: 100vw !important;
+   }
+   .search-icon{
+    margin-top: 17px !important;
+   }
 }
 
 .search-box{

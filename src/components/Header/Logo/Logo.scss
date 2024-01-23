@@ -2,14 +2,37 @@
     margin: 10px;
     display: flex;
     align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .logo{
+        margin: 0px;
+        background-color: black;
+        justify-content: center;
+    }
+    .img{
+
+        border-radius: 0px;
+    }
+    .logo_title{
+        color: white !important;
+        background: black !important;
+        padding-left: 0px !important;
+    }
 
 }
+
 
 .img{
  width: 45px;
  height: 45px;
  border-radius: 10px 0px 0px 10px;
 }
+
+
+
 
 .logo_title{
     color: black;

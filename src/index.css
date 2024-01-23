@@ -1,6 +1,12 @@
 body {
   margin: 0px;
   color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(39, 26, 26, 1) 46%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 #root {
   margin: 0px;
